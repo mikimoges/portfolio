@@ -1,0 +1,263 @@
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+    .roundedbg{
+        width: 50px;
+        height: 50px;
+        background-color: rgb(244, 251, 248);
+        text-align: center;
+        display: flex;
+        border-radius: 100%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .snd-bg{
+        width: 45px;
+        height: 45px;
+        background-color: rgb(17, 255, 0);
+        border-radius: 100%;
+        position: absolute;
+        text-align: center;
+        display: flex;
+    }
+    #img-i{
+        width: 97%;
+        height: 97%;
+        margin: auto;
+         /* transform: translate(0% ,5%);  */
+        border-radius: 50%;
+        position: relative;
+    }
+ 
+
+
+.ico{
+    color: #f44336;
+    font-size: 100px;
+    margin-top: 27%;
+}
+#nav-bkg{
+  background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8));
+}
+
+.pt{
+    
+    padding: 10%;
+}
+#front-page-text button{
+  background-color:#1b8c57;
+  color: #fff;
+
+}
+.mid-text-bg{
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+#front-page-text button:hover, button:focus{
+  
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)) #198754;
+  
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+
+
+/* Container for skill bars */
+.s-bar {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+#skils-page{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/skills3.jpg");
+  /* height: 100vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px;
+}
+
+/*needs to be responsive*/
+
+
+
+
+.html {width: 80%; background-color: rgb(17, 255, 0);} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.cpp{width: 80%; background-color: aquamarine;}
+.java{width: 88%; background-color: rgb(210, 145, 5);}
+.python{width: 50%; background-color: #b81dc3;}
+ p{
+    color: white;
+    
+ }   
+ @media (min-width: 700px) {
+    .mid{
+        background-color: #ddd;
+    }
+    #front-page-text{
+      width: 55%;
+    }
+    #front-page-text button{
+      margin-top: 20px;
+    }
+    #skills-container{
+      left: 25%; 
+      width: 50%; 
+      height: 50%;
+    }
+    #abt{
+      padding-top: 150px;
+    }
+    #home{
+      height: 100vh; 
+      background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(../images/bgcontactusdark.jpg); 
+      margin: 0;
+       padding: 0; 
+       background-size: cover;
+        background-position: center;
+    }
+    
+  }
+  
+ @media (max-width: 575.98px) { 
+    
+    #home{
+      height: 40vh; 
+      background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.4)), url(../images/bgcontactusdark.jpg); 
+      margin: 0;
+       padding: 0; 
+       background-size: cover;
+        background-position: center;
+    }
+    
+  }
+  @media (max-width: 700.98px) { 
+    #front-page-text{
+      width: auto;
+    }
+    #front-page-text button{
+      margin-top: 20px;
+    }
+    #abt{
+      padding-top: 50px;
+    }
+    #skills{
+      background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5))   ;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      padding: 100px 0;
+    }
+    
+  }
+  @media (max-width: 1000px) {
+    
+    #about-me-pic{
+      display: none;
+    }
+  } 
+ 
+  
+/*About ME*/
+
+/*Contact Me*/
+#contact-me{
+  height: 100vh; 
+  padding-top: 100px; 
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(../images/bgcontactus.jpg); 
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+#text-msg-for-input-1{
+  font-size: 17px;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  margin-bottom: 1px; 
+  margin: 4%;
+
+ 
+  display: flex;
+}
+#input-field{
+  width: 70%;
+  height: 50px;
+  margin: 12PX;
+  margin-left: 2px;
+  float: left;
+  border-radius: 14px;
+  background-color: black;
+  color: #fff;
+  padding-left: 20px;
+}
+#img-cont-small{
+  background-position: center;  
+  background-size: cover; 
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/contactusleftside7.jpg); 
+   width: 100%;
+   height: 100%; 
+          
+}
+#img-cont-small h2{
+  padding-top: 38%;
+  background-position: center;
+  width: 30%;
+  height: 100%;
+  color: antiquewhite;
+  font-weight: bold;
+  rotate: 0deg;
+  font-size: 59px;
+}
+#img-cont-small h2 span{
+  color:  wheat;
+  font-size: 100px;
+}
+#input-submit{
+  width: 120px;
+  height: 45px;
+  color: #fff;
+  background-color: rgb(94, 104, 94);
+  border: none;
+  margin-bottom: 40px;
+  border-radius: 25px;
+}
+#input-submit:hover{
+  background-color: #808080;
+  box-shadow:unset darkcyan 10px;
+
+}
+#text-area{
+  height: 80px;
+  width: 70%;
+  margin-left: -29%;
+  border-radius: 8px;
+  margin-top: 15px;
+  background-color: #808080;
+  position: relative;
+  
+  }
+  #text-area::placeholder{
+    color: #fff;
+    padding: 12px;
+  }
+  #cont{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  }
+  #social:hover{
+    color: black;
+    background-color: #ddd;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+
+
